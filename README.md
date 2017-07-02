@@ -58,10 +58,13 @@ see [config/config.default.js](config/config.default.js) for more detail.
 
 ## Example
 
+```js
+// for old version eggjs which does support match options
+// {app_root}/config/config.default.js
 exports.httpAuth = {
-  enable: true,
-  package: 'egg-http-auth',
-  match: '/api/v1/backdoor',
+  username: 'username',
+  password: 'password',
+  match: /^\/api\/v1\/backdoor/
 };
 ```
 

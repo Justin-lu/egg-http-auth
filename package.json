@@ -1,6 +1,6 @@
 {
   "name": "egg-http-auth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "egg plugin for HTTP basic and digest access authentication",
   "eggPlugin": {
     "name": "httpAuth"
