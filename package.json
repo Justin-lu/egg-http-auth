@@ -48,12 +48,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-http-auth.git"
+    "url": "git+https://github.com/Justin-lu/egg-http-auth.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/Justin-lu/egg-http-auth"
   },
-  "homepage": "https://github.com/eggjs/egg-http-auth#readme",
+  "homepage": "https://github.com/Justin-lu/egg-http-auth#readme",
   "author": "Justin-lu",
   "license": "MIT"
 }

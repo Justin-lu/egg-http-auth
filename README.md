@@ -20,9 +20,7 @@
 [download-image]: https://img.shields.io/npm/dm/egg-http-auth.svg?style=flat-square
 [download-url]: https://npmjs.org/package/egg-http-auth
 
-<!--
-Description here.
--->
+egg plugin for HTTP basic and digest access authentication.
 
 ## Install
 
@@ -37,6 +35,12 @@ $ npm i egg-http-auth --save
 exports.httpAuth = {
   enable: true,
   package: 'egg-http-auth',
+  // which routes you want to using this middleware
+  match: '',
+  // which routes you want to ignore this middleware
+  // ignore: ''
+  // match: (ctx) {
+  // }
 };
 ```
 
@@ -45,6 +49,8 @@ exports.httpAuth = {
 ```js
 // {app_root}/config/config.default.js
 exports.httpAuth = {
+  username: 'username',
+  password: 'password',
 };
 ```
 
@@ -52,11 +58,16 @@ see [config/config.default.js](config/config.default.js) for more detail.
 
 ## Example
 
-<!-- example here -->
+exports.httpAuth = {
+  enable: true,
+  package: 'egg-http-auth',
+  match: '/api/v1/backdoor',
+};
+```
 
 ## Questions & Suggestions
 
-Please open an issue [here](https://github.com/eggjs/egg/issues).
+Please open an issue [here](https://github.com/Justin-lu/egg-http-auth/issues).
 
 ## License
 
