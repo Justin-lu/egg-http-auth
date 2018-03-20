@@ -1,5 +1,7 @@
 # egg-http-auth
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Justin-lu/egg-http-auth.svg)](https://greenkeeper.io/)
+
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
 [![Test coverage][codecov-image]][codecov-url]
