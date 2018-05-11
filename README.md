@@ -35,12 +35,6 @@ $ npm i egg-http-auth --save
 exports.httpAuth = {
   enable: true,
   package: 'egg-http-auth',
-  // which routes you want to using this middleware
-  match: '',
-  // which routes you want to ignore this middleware
-  // ignore: ''
-  // match: (ctx) {
-  // }
 };
 ```
 
@@ -51,6 +45,11 @@ exports.httpAuth = {
 exports.httpAuth = {
   username: 'username',
   password: 'password',
+  // match: '',
+  // which routes you want to ignore this middleware
+  // ignore: ''
+  // match: (ctx) {
+  // }
 };
 ```
 
